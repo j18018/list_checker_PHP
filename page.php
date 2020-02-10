@@ -53,7 +53,7 @@ $mysqli->close();
 レコード件数：<?php echo $row_count; ?>
 
 <table border='1'>
-<tr><th>id</th><th>name</th></tr>
+<tr><th>id</th><th>title</th></tr>
 
 <?php
 foreach($rows as $row){
